@@ -1,7 +1,37 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.title {
+  text-align: center;
+  height: 197px;
+}
 
-.container {
+.section {
+  background-color: grey;
+  height: 500px;
+}
+
+.footer {
  background-color: black;
+  height: 50px;
+  width: 100%;
+}
+
+
+ /*Navbar fixing */
+.affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .title {
+      padding-top: 70px;
+  }
+
+/*Jquery Testing */
+
+#animate {
+  background-color: blue;
+  color: white;
+  height: 100px;
 }
