@@ -28,10 +28,29 @@
       padding-top: 70px;
   }
 
+/* Lineup */
+
+.lineup {
+  height: 200px;
+}
+
+/* Subscribe Partial */
+
+.Subsribe {
+  text-align: center;
+}
+
 /*Jquery Testing */
 
 #animate {
   background-color: blue;
   color: white;
   height: 100px;
+}
+
+.testing {
+  height: auto;
+  background-size: cover;
+  bckground-position: center;
+  background-color: red;
 }
